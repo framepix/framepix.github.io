@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guus Blockchain</title>
+    <style>
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+            background: #f4f4f9; 
+        }
+        header { 
+            background: linear-gradient(135deg, #4a90e2, #34495e); 
+            color: #fff; 
+            text-align: center; 
+            padding: 60px 20px; 
+        }
+        header h1 { 
+            font-size: 3em; 
+            margin: 0; 
+        }
+        header p { 
+            font-size: 1.3em; 
+        }
+        .cta { 
+            background: #ff6b6b; 
+            color: #fff; 
+            padding: 12px 30px; 
+            text-decoration: none; 
+            border-radius: 25px; 
+            font-size: 1.1em; 
+            margin-top: 20px; 
+            display: inline-block; 
+        }
+        section { 
+            padding: 40px 20px; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+        }
+        h2 { 
+            color: #4a90e2; 
+            font-size: 2.2em; 
+            margin-bottom: 20px; 
+        }
+        .content-block { 
+            text-align: center; 
+            margin-bottom: 40px; 
+        }
+        .feature-list, .rewards-table, .node-setup ol, .explore ul { 
+            display: flex; 
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+            list-style: none; 
+            padding: 0; 
+        }
+        .feature-item, .reward-item { 
+            background: #fff; 
+            width: 250px; 
+            padding: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            margin: 10px; 
+            border-radius: 10px; 
+            text-align: center; 
+        }
+        .footer { 
+            background: #34495e; 
+            color: #fff; 
+            text-align: center; 
+            padding: 30px 20px; 
+        }
+        .footer a { 
+            color: #ff6b6b; 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Guus Blockchain</h1>
+    <p>Secure, Decentralized, and Rewarding. Join the future of blockchain with Guus.</p>
+    <a href="https://guus.org/download" class="cta">Download Wallet</a>
+</header>
+
+<section class="about">
+    <div class="content-block">
+        <h2>About Guus</h2>
+        <p>Guus is a decentralized blockchain platform that securely stores files and images while offering rewards through staking. With robust checkpoints and RandomX mining, Guus ensures a reliable, private, and profitable experience.</p>
+    </div>
+</section>
+
+<section class="features">
+    <div class="content-block">
+        <h2>Key Features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <h3>File Storage</h3>
+                <p>Store files, images, and data securely on the blockchain.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Decentralized Rewards</h3>
+                <p>Earn passive income by staking GUUS and running a frame node.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Strong Checkpoints</h3>
+                <p>Bulletproof security through robust checkpoints.</p>
+            </div>
+            <div class="feature-item">
+                <h3>RandomX Mining</h3>
+                <p>Efficient mining algorithm starting from block height 0.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="node-setup">
+    <div class="content-block">
+        <h2>Setting Up Your Node</h2>
+        <p>Follow these steps to set up a Guus frame node:</p>
+        <ol>
+            <li>Ensure you have 10,000 GUUS.</li>
+            <li><a href="https://guus.org/download">Download the Guus Wallet</a> and extract it to your home directory.</li>
+            <li>Run <code>./guusd --frame</code> to start your node and allow it to sync.</li>
+            <li>After syncing, type <code>prepare_registration</code> and follow the prompts to complete staking.</li>
+        </ol>
+    </div>
+</section>
+
+<section class="rewards">
+    <div class="content-block">
+        <h2>Rewards Structure</h2>
+        <table class="rewards-table">
+            <tr><th>Reward Type</th><th>Amount per Block</th></tr>
+            <tr><td>Frame Node Reward</td><td>250 GUUS</td></tr>
+            <tr><td>Miner Reward</td><td>225 GUUS</td></tr>
+            <tr><td>Network Foundation Reward</td><td>25 GUUS</td></tr>
+        </table>
+    </div>
+</section>
+
+<section class="explore">
+    <div class="content-block">
+        <h2>Explore Guus Blockchain</h2>
+        <ul>
+            <li><a href="https://explorer.guus.org">Guus Blockchain Explorer</a></li>
+            <li><a href="https://github.com/guus-org/guus">Guus GitHub Repository</a></li>
+            <li><a href="https://discord.gg/guus">Join the Guus Community on Discord</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Guus Blockchain | <a href="mailto:support@guus.org">Contact Us</a> | <a href="https://guus.org/docs">Documentation</a></p>
+</footer>
+
+</body>
+</html>
